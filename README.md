@@ -1,12 +1,11 @@
 # ocaml-cordova-plugin-screenshot
 
-[![LGPL-v3 licensed](https://img.shields.io/badge/license-LGPLv3-blue.svg)](https://raw.githubusercontent.com/dannywillems/ocaml-cordova-plugin-activity-indicator/master/LICENSE)
-[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator)
+[![LGPL-v3 licensed](https://img.shields.io/badge/license-LGPLv3-blue.svg)](https://github.com/aik9508/ocaml-cordova-plugin-screenshot/blob/master/LICENSE)
 
 Binding to
 [cordova-plugin-screenshot](https://github.com/aik9508/cordova-screenshot)
 
-## What does cordova-plugin-activityindicator do ?
+## What does cordova-plugin-screenshot do ?
 
 ```
 Plugin for Cordova 3.0+ that allows you to take screenshots in your Android/iOS Cordova's app.
