@@ -1,22 +1,14 @@
 opam-version: "1.2"
-name:         "ocaml-cordova-plugin-screenshot"
-maintainer:   "Ke Wang <Ke.Douglas.Wang@hotmail.com>"
-author:       "Ke Wang <Ke.Douglas.Wang@hotmail.com>"
-
-homepage:     "https://github.com/aik9508/ocaml-cordova-plugin-screenshot"
-bug-reports:  "https://github.com/aik9508/ocaml-cordova-plugin-screenshot/issues"
-
-dev-repo:     "https://github.com/aik9508/ocaml-cordova-plugin-screenshot"
-
+name:         "cordova-plugin-screenshot"
+maintainer:   "Be Sport <dev@besport.com>"
+author:       "Be Sport <dev@besport.com>"
+homepage:     "https://github.com/besport/ocaml-cordova-plugin-screenshot"
+bug-reports:  "https://github.com/besport/ocaml-cordova-plugin-screenshot/issues"
+dev-repo:     "https://github.com/besport/ocaml-cordova-plugin-screenshot.git"
 license:      "LGPL-3.0 with OCaml linking exception"
-
 version:      "1.0"
-
 build: [make "build"]
 install: [make "install"]
 remove: [make "remove"]
-
-depends: [
-  "gen_js_api"
-]
+depends: [ "gen_js_api" ]
 available: [ ocaml-version >= "4.03.0" ]
